@@ -149,7 +149,7 @@ export const PROJECTS: Project[] = [
     description:
       "A personal application designed to help record/manage and track job applications, interviews, ghostings and follow-ups.",
     stack: ["React", "TypeScript", "Tailwind CSS"],
-    imageUrl: "https://picsum.photos/800/600?random=3",
+    imageUrl: "https://picsum.photos/800/600?random=4",
     github: "https://github.com/NicholasSycz/job-tracking-app", 
     contributions: [
       "Designed and developed a responsive an analytics-focused application using React and Tailwind CSS.",

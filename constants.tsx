@@ -135,7 +135,7 @@ export const PROJECTS: Project[] = [
       "A personal portfolio website to showcase my projects, skills, and life experience as a full stack engineer.",
     stack: ["React", "TypeScript", "Tailwind CSS"],
     imageUrl: "https://picsum.photos/800/600?random=3",
-    github: "https://github.com/NicholasSycz/my-portfolio",
+    github: "https://github.com/NicholasSycz/portfolio",
     contributions: [
       "Designed and developed a responsive and visually appealing portfolio website using React and Tailwind CSS.",
       "Implemented smooth scrolling and interactive elements to enhance user experience.",

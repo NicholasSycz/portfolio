@@ -25,7 +25,7 @@ export const WORK_HISTORY: WorkExperience[] = [
     start: "Apr 2021",
     end: "Dec 2025",
     description: "Developed and maintained a large-scale e-commerce platform that specialized in providing essential (and non-essential) products for dental offices nation-wide.",
-    achievements: ["test", "big brain"],
+    achievements: [],
   },
   {
     id: "w2",
@@ -34,7 +34,7 @@ export const WORK_HISTORY: WorkExperience[] = [
     start: "Jul 2019",
     end: "Apr 2021",
     description: "Developed and maintained a large-scale e-commerce platform that specialized in providing essential (and non-essential) products for dental offices nation-wide.",
-    achievements: ["test", "big brain"],
+    achievements: [],
   },
   {
     id: "w3",

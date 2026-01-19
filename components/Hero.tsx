@@ -2,6 +2,14 @@ import React from "react";
 import { PERSONAL_INFO, ICONS } from "../constants";
 
 const Hero: React.FC = () => {
+  const scrollTo = (id: string) => (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section
       id="about"
@@ -32,6 +40,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="#projects"
+            onClick={scrollTo("projects")}
             className="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-white dark:text-slate-900 font-bold rounded-xl transition-all shadow-lg hover:shadow-emerald-500/20 hover:scale-105 flex items-center justify-center"
           >
             View Projects

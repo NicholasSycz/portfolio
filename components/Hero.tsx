@@ -43,12 +43,12 @@ const Hero: React.FC = () => {
           >
             <ICONS.Download /> Download Resume
           </a>
-          <a
+          {/* <a
             href="#contact"
             className="px-8 py-4 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white font-bold rounded-xl transition-all flex items-center justify-center gap-2"
           >
             Get in touch
-          </a>
+          </a> */}
         </div>
 
         <div className="mt-16 flex justify-center gap-8">

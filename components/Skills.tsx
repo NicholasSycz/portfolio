@@ -64,7 +64,7 @@ const Skills: React.FC = () => {
           <div className="w-16 h-1 bg-gradient-to-r from-emerald-500 to-amber-500 mx-auto mt-6 rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {SKILL_CATEGORIES.map((category, idx) => (
             <div
               key={category.name}

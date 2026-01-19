@@ -80,13 +80,13 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkTheme, toggleTheme }) => {
             >
               Projects
             </a>
-            <a
+            {/* <a
               href="#contact"
               onClick={scrollTo("contact")}
               className="hover:text-emerald-400 transition-colors"
             >
               Contact
-            </a>
+            </a> */}
           </div>
 
           <button

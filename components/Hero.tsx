@@ -49,8 +49,9 @@ const Hero: React.FC = () => {
             href={PERSONAL_INFO.resumeUrl}
             download
             className="px-8 py-4 glass-panel hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-900 dark:text-white font-bold rounded-xl transition-all border border-slate-200 dark:border-slate-700 hover:scale-105 flex items-center justify-center gap-2"
+            id="resume-link"
           >
-            <ICONS.Download /> Download Resume
+            <ICONS.Download /> View Resume
           </a>
           {/* <a
             href="#contact"

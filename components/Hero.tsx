@@ -50,6 +50,7 @@ const Hero: React.FC = () => {
             download
             className="px-8 py-4 glass-panel hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-900 dark:text-white font-bold rounded-xl transition-all border border-slate-200 dark:border-slate-700 hover:scale-105 flex items-center justify-center gap-2"
             id="resume-link"
+            target="_blank"
           >
             <ICONS.Download /> View Resume
           </a>

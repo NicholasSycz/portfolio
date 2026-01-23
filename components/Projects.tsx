@@ -78,6 +78,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 dark:text-slate-500 hover:text-emerald-500 dark:hover:text-white transition-colors"
+              id={`github-link-${project.id}`}
             >
               <ICONS.Github />
             </a>
@@ -88,6 +89,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 font-bold text-sm hover:underline"
+              id={`project-link-${project.id}`}
             >
               Check it out <ICONS.External />
             </a>

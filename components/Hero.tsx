@@ -68,6 +68,7 @@ const Hero: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 dark:text-slate-500 hover:text-emerald-500 dark:hover:text-white transition-colors"
+            id="github-link"
           >
             <ICONS.Github />
           </a>
@@ -76,12 +77,14 @@ const Hero: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 dark:text-slate-500 hover:text-emerald-500 dark:hover:text-white transition-colors"
+            id="linkedin-link"
           >
             <ICONS.Linkedin />
           </a>
           <a
             href={`mailto:${PERSONAL_INFO.email}`}
             className="text-slate-400 dark:text-slate-500 hover:text-emerald-500 dark:hover:text-white transition-colors"
+            id="email-link"
           >
             <ICONS.Mail />
           </a>

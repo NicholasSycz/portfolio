@@ -64,7 +64,7 @@ export const EDUCATION_HISTORY: Education[] = [
     period: "2014 - 2018",
     level: 'higher',
     description: "Focused on software development, algorithms, data structures, and computer systems. Completed multiple projects involving General development in Java, JavaScript, Python, COBOL, databases, and applied programming.",
-    highlights: ["GPA: 3.8/4.0", "Dean's List (all semesters)"]
+    highlights: ["GPA: 3.8/4.0", "Magna Cum Laude", "Cum Laude", "Provost's Scholar", "Dean's List (all semesters)"]
   },
   {
     id: "e2",
@@ -73,7 +73,7 @@ export const EDUCATION_HISTORY: Education[] = [
     period: "2010 - 2014",
     level: 'higher',
     description: "Developed strong analytical and research skills through coursework in criminal behavior, statistics, forensics and investigative methodology. Built a foundation in evidence-based problem solving.",
-    highlights: ["GPA: 3.8/4.0", "Dean's List (all semesters)"]
+    highlights: ["GPA: 3.8/4.0", "Magna Cum Laude", "Cum Laude", "Provost's Scholar", "Dean's List (all semesters)"]
   },
   {
     id: "e3",
